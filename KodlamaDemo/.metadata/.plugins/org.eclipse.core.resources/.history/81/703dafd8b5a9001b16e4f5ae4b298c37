@@ -1,0 +1,9 @@
+package kodlamaDemo;
+
+public class Student extends User {
+
+	
+	String address;
+	
+	
+}

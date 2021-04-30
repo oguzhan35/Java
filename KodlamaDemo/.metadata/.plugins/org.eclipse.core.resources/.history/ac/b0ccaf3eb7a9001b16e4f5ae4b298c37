@@ -1,0 +1,16 @@
+package kodlamaDemo;
+
+public class UserManager {
+private User user;
+	public void add(User user) {
+		System.out.println("Eklendi ");
+	}
+	
+
+
+   public void allList(User[] users) {
+	 
+	   System.out.println("Kayýt");
+	   
+    }
+}

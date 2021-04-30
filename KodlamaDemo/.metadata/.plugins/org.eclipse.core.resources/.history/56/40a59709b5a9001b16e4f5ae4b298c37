@@ -1,0 +1,7 @@
+package kodlamaDemo;
+
+public class InstructorManager extends UserManager {
+	
+	
+
+}

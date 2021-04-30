@@ -1,0 +1,15 @@
+package kodlamaDemo;
+
+public class UserManager {
+
+	public void add() {
+		System.out.println("Eklendi ");
+	}
+	
+
+
+   public void list() {
+	
+	   
+    }
+}

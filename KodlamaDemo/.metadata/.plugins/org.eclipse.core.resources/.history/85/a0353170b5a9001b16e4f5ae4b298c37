@@ -1,0 +1,11 @@
+package kodlamaDemo;
+
+public class User {
+
+	int id;
+	String firstName;
+	String lastName;
+	String password;
+	String userName;
+	String email;
+}

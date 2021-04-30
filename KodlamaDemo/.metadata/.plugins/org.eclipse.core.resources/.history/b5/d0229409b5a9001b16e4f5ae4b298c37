@@ -1,0 +1,21 @@
+package kodlamaDemo;
+
+public class UserManager {
+
+	public void add() {
+		System.out.println("Eklendi ");
+	}
+	
+  public void update(User user) {
+		
+	}
+  
+  public void delete() {
+	
+    }
+
+   public void list() {
+	
+	   
+    }
+}
