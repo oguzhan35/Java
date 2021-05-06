@@ -1,0 +1,15 @@
+package interfaceAbstractDemo.Entities;
+
+import java.time.LocalDate;
+
+public class Customer {
+	
+	 private int id;
+	 private String firstName;
+	 private String lastName;
+	 private LocalDate DateOfBirth;
+	 private String NationalityId;
+	 
+
+	
+}

@@ -1,0 +1,27 @@
+package interfaceAbstractDemo;
+
+import java.time.LocalDate;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+import interfaceAbstractDemo.Concrate.NeroCustomerManager;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		BaseCustomerManager  customerManager = new NeroCustomerManager(); 
+
+		Customer customer = new Customer();
+		customer.setId(1);
+		customer.setDateOfBirth(LocalDate.of(1992,06,30));
+		customer.setFirstName("Ali");
+		customer.setLastName("Veli");
+		customer.setNationalityId("11111111111");
+		
+		customerManager.save(customer);
+		
+	}
+
+}

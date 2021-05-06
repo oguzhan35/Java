@@ -1,0 +1,14 @@
+package interfaceAbstractDemo.Concrate;
+
+import interfaceAbstractDemo.Abstract.CustomerService;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class StarbucksCustomermanager implements CustomerService {
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

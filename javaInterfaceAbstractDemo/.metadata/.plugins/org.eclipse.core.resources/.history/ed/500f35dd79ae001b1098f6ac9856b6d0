@@ -1,0 +1,16 @@
+package interfaceAbstractDemo.Concrate;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class StarbucksCustomermanager extends BaseCustomerManager {
+
+	public void save(Customer customer) {
+		CheckIfRealPerson(customer);
+		this.save(customer);
+	}
+	
+	private void CheckIfRealPerson(Customer customer) {
+		
+	}
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Abstract.Entity"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Concrate.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Entities.Customer"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="org.apache.axis.utils.JavaUtils.ConvertCache"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.Convert"/>
+    <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoap"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicLocator"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Concrate.StarbucksCustomermanager"/>
+    <fullyQualifiedTypeName name="interfaceAbstractDemo.Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="java.awt.font.LineBreakMeasurer"/>
+</qualifiedTypeNameHistroy>

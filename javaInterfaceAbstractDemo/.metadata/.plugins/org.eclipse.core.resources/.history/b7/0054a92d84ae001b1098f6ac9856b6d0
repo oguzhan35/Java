@@ -1,0 +1,33 @@
+package interfaceAbstractDemo.Concrate;
+
+import java.rmi.RemoteException;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+import interfaceAbstractDemo.Abstract.CustomerCheckService;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class StarbucksCustomermanager extends BaseCustomerManager {
+
+	private CustomerCheckService customerCheckService;
+	
+	public StarbucksCustomermanager(CustomerCheckService customerCheckService) {
+		this.customerCheckService =customerCheckService;
+	}
+	
+	
+	public void save(Customer customer) {
+		try {
+			if (customerCheckService.CheckIfRealPerson(customer)) {
+				this.save(customer);
+			}else {
+				System.out.println("gercek bir kullanýcý degil");
+			}
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+}

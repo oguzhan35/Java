@@ -1,0 +1,27 @@
+package interfaceAbstractDemo.Adapters;
+
+import java.rmi.RemoteException;
+
+import org.apache.axis.utils.JavaUtils.ConvertCache;
+
+
+
+import interfaceAbstractDemo.Abstract.CustomerCheckService;
+import interfaceAbstractDemo.Entities.Customer;
+import tr.gov.nvi.tckimlik.WS.KPSPublicLocator;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoap;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoapStub;
+
+public class MernisServiceAdapter implements CustomerCheckService {
+
+	@Override
+	public boolean CheckIfRealPerson(Customer customer) {
+		// TODO Auto-generated method stu
+		
+		KPSPublicLocator client = new KPSPublicLocator();
+		return client.TCKimlikNoDogrula(Long.parseLong(customer.getNationalityId()), customer.getFirstName().toUpperCase(), customer.getLastName().toUpperCase(), customer.getDateOfBirth().getYear());
+	}
+	
+
+}

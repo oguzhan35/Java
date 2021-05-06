@@ -1,0 +1,11 @@
+package interfaceAbstractDemo.Concrate;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class StarbucksCustomermanager extends BaseCustomerManager {
+
+	public void save(Customer customer) {
+		this.save(customer);
+	}
+}

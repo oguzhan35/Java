@@ -1,0 +1,8 @@
+package interfaceAbstractDemo.Concrate;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+
+public class StarbucksCustomermanager extends BaseCustomerManager {
+
+	
+}

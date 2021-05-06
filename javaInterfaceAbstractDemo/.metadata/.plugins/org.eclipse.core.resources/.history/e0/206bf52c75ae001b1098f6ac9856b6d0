@@ -1,0 +1,17 @@
+package interfaceAbstractDemo;
+
+import interfaceAbstractDemo.Abstract.BaseCustomerManager;
+import interfaceAbstractDemo.Concrate.NeroCustomerManager;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		BaseCustomerManager  customerManager = new NeroCustomerManager(); 
+
+		customerManager.save(new Customer{ });
+	}
+
+}

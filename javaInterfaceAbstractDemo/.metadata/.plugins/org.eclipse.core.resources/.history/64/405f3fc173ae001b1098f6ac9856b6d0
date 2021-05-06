@@ -1,0 +1,14 @@
+package interfaceAbstractDemo.Concrate;
+
+import interfaceAbstractDemo.Abstract.CustomerService;
+import interfaceAbstractDemo.Entities.Customer;
+
+public class NeroCustomerManager implements CustomerService {
+
+	@Override
+	public void save(Customer customer) {
+		
+		
+	}
+
+}
