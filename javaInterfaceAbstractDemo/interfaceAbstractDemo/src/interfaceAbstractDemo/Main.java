@@ -17,10 +17,10 @@ public class Main {
 
 		Customer customer = new Customer();
 		customer.setId(1);
-		customer.setDateOfBirth(LocalDate.of(1992,06,30));
-		customer.setFirstName("OÐUZHAN");
-		customer.setLastName("DEMÝR");
-		customer.setNationalityId("53527148038");
+		customer.setDateOfBirth(LocalDate.of(1111,11,11));
+		customer.setFirstName("FIRSTNAME");
+		customer.setLastName("LASTNAME");
+		customer.setNationalityId("11111111111");
 		
 		customerManager.save(customer);
 		
