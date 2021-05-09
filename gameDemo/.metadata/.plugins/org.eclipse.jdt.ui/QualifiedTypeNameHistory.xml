@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="gameDemo.Entities.Concrete.Category"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="gameDemo.Business.Concrete.CustomerManager"/>
+    <fullyQualifiedTypeName name="gameDemo.Business.Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="gameDemo.Adapters.MernisService"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="gameDemo.Business.Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="gameDemo.Business.Abstract.ProductService"/>
+</qualifiedTypeNameHistroy>

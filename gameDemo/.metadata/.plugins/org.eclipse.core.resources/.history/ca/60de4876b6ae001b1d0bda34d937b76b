@@ -1,0 +1,8 @@
+package gameDemo.Business.Abstract;
+
+import gameDemo.Entities.Concrete.Product;
+
+public interface ProductService {
+
+	void list(Product product);
+}

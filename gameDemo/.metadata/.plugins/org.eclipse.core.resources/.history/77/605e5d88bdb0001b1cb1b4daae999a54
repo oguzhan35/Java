@@ -1,0 +1,8 @@
+package gameDemo.dataAccess.concretes;
+
+import gameDemo.dataAccess.abstracts.CustomerDao;
+
+public class HibernateCustomerDao  implements CustomerDao {
+
+	void save(Customer customer);
+}

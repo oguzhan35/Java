@@ -1,0 +1,18 @@
+package gameDemo.core.concretes;
+
+import java.rmi.RemoteException;
+
+import gameDemo.core.abstracts.CheckService;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoap;
+
+public class CheckManager implements CheckService {
+
+	@Override
+	public boolean check() {
+	
+	return true;
+		
+	}
+	
+
+}

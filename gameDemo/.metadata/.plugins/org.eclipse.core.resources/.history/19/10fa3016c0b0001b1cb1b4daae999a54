@@ -1,0 +1,15 @@
+package gameDemo.core.concretes;
+
+import gameDemo.core.abstracts.CheckService;
+
+public class CheckManager implements CheckService {
+
+	@Override
+	public void check(boolean result) {
+	
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,6 @@
+package gameDemo.dataAccess.abstracts;
+
+public interface SaleDao {
+
+ void	add(Sale sale);
+}

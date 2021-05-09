@@ -1,0 +1,7 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.CampaignService;
+
+public class CampaignManager implements CampaignService {
+
+}

@@ -1,0 +1,13 @@
+package gameDemo.Entities;
+
+import java.time.LocalDate;
+
+public class Product {
+	
+ private int id;
+ private String productName;
+ private short unitsInStock;
+ private double unitPrice;
+  
+
+}

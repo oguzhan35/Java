@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\oguz\Desktop\del yedek 25.10.09\DERS\javaGit\gameDemo\.metadata\.plugins\org.eclipse.jdt.core
+224998376.index
+587033415.index
+1775223649.index
+3093935188.index
+3253570207.index
+2618652107.index
+2069893762.index
+915386086.index
+1248545562.index
+1469540594.index
+3659860342.index
+923534084.index

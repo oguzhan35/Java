@@ -1,0 +1,21 @@
+package gameDemo.core.concretes;
+
+import gameDemo.core.abstracts.CheckService;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
+
+private CustomerDao customerDao;
+
+public class CheckManager implements CheckService {
+
+	@Override
+	public boolean check() {
+		
+		KPSPublicSoapProxy user = new KPSPublicSoapProxy();
+		user.
+       	
+	return true;
+		
+	}
+	
+
+}

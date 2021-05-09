@@ -1,0 +1,9 @@
+package gameDemo.Entities.Concrete;
+
+public class Campaign {
+	private int id;
+	private String campaignName;
+	private double discount;
+	private int stockInDiscounted;
+
+}

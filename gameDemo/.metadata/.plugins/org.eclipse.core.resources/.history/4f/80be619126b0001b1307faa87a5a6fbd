@@ -1,0 +1,39 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.BaseCustomerManager;
+import gameDemo.Business.Abstract.CustomerCheckService;
+import gameDemo.Business.Abstract.CustomerService;
+import gameDemo.Entities.Concrete.Customer;
+
+public class CustomerManager  extends BaseCustomerManager {
+
+	private CustomerCheckService customerCheckService;
+	
+	public CustomerManager(CustomerCheckService customerCheckService) {
+		this.customerCheckService =customerCheckService;
+	}
+
+	@Override
+	public void save(Customer customer) {
+		try {
+			if (customerCheckService.CheckCustomer(customer)) {
+				save(customer);
+				System.out.println("Kullanýcý Kayýt  dogru");
+
+			}else {
+				System.out.println("Kullanýcý Kayýt bilgileri yanlýs");
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+	}
+
+
+	
+
+
+	
+
+}

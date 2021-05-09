@@ -1,0 +1,14 @@
+package gameDemo.business.concretes;
+
+import gameDemo.business.abstracts.CustomerService;
+import gameDemo.entities.concretes.Customer;
+
+public class CustomerManager implements CustomerService {
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

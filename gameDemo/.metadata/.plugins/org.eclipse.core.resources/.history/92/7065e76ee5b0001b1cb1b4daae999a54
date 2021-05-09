@@ -1,0 +1,10 @@
+package gameDemo.entities.concretes;
+
+public class Sale {
+
+	private int id;
+	private int customerId;
+	private int productId;
+	private int campaingId;
+	
+}

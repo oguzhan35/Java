@@ -1,0 +1,34 @@
+package gameDemo.core.concretes;
+
+import java.rmi.RemoteException;
+
+import gameDemo.core.abstracts.CheckService;
+import gameDemo.entities.concretes.Customer;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoap;
+
+
+public class CheckManager implements CheckService {
+
+	@Override
+	public boolean check(Customer customer)  {
+		
+		
+ 
+       	
+	KPSPublicSoap kpsPublicSoap = new KPSPublicSoapProxy();
+	try {
+		kpsPublicSoap.TCKimlikNoDogrula(Long.parseLong(customer.getNationalIdentity()), customer.getFirstName().toUpperCase(), customer.getLastName().toUpperCase(), customer.getBirthday());
+	} catch (NumberFormatException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (RemoteException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	  return  result ;
+		
+	}
+	
+
+}

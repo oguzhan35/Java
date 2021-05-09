@@ -1,0 +1,9 @@
+package gameDemo.Business.Abstract;
+
+import gameDemo.Entities.Concrete.Category;
+
+public interface CategoryService {
+
+	void add(Category category);
+	
+}

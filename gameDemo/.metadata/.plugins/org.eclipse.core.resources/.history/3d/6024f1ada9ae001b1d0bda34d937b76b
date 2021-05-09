@@ -1,0 +1,10 @@
+package gameDemo.Entities;
+
+import java.time.LocalDate;
+
+public class Product {
+	
+ 
+  
+
+}

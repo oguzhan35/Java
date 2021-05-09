@@ -1,0 +1,14 @@
+package gameDemo.Adapters;
+
+import gameDemo.Business.Abstract.CustomerCheckService;
+import gameDemo.Entities.Concrete.Customer;
+
+public class MernisService implements CustomerCheckService{
+
+	@Override
+	public boolean CheckCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

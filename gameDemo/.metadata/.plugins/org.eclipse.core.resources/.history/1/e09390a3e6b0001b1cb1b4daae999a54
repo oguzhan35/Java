@@ -1,0 +1,8 @@
+package gameDemo.business.concretes;
+
+import gameDemo.business.abstracts.SaleService;
+
+public class SaleManager implements SaleService {
+
+	void add(Sale sale);
+}

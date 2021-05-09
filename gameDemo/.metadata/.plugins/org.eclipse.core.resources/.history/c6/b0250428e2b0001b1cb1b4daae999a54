@@ -1,0 +1,15 @@
+package gameDemo.dataAccess.concretes;
+
+import gameDemo.dataAccess.abstracts.CustomerDao;
+import gameDemo.entities.concretes.Customer;
+
+public class HibernateCustomerDao  implements CustomerDao {
+
+	@Override
+	public void save(Customer customer,boolean result) {
+
+		System.out.println("HPKullanýcý Kimligi Dogrulandý"+customer.getFirstName());
+		result = true;
+	}
+
+}

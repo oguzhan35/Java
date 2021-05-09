@@ -1,0 +1,30 @@
+package gameDemo.business.concretes;
+
+import gameDemo.business.abstracts.ProductService;
+import gameDemo.core.abstracts.CheckService;
+import gameDemo.dataAccess.abstracts.CustomerDao;
+import gameDemo.dataAccess.abstracts.ProductDao;
+import gameDemo.entities.concretes.Product;
+
+public class ProductManager implements ProductService {
+
+	private CheckService checkService;
+	private ProductDao productDao;
+	private CustomerDao customerDao;
+
+	
+	public ProductManager(CheckService checkService,ProductDao productDao,CustomerDao customerDao) {
+		super();
+		this.checkService = checkService;
+		this.productDao=productDao;
+		this.customerDao=customerDao;
+		
+	}
+	
+	@Override
+	public void add(Product product) {
+		// TODO Auto-generated method stub
+          System.out.println("Urun kaydedildi"+product.getName());
+	}
+
+}

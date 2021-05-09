@@ -1,0 +1,23 @@
+package gameDemo;
+
+import java.time.LocalDate;
+
+import gameDemo.Adapters.MernisService;
+import gameDemo.Business.Abstract.BaseCustomerManager;
+import gameDemo.Business.Abstract.ProductService;
+import gameDemo.Business.Concrete.CustomerManager;
+import gameDemo.Business.Concrete.ProductManager;
+import gameDemo.Entities.Concrete.Customer;
+import gameDemo.Entities.Concrete.Product;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+
+	}
+
+}

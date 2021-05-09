@@ -1,0 +1,10 @@
+package gameDemo.Business.Abstract;
+
+import gameDemo.Entities.Concrete.Customer;
+
+public interface CustomerService {
+
+	void add(Customer customer);
+	
+	
+}

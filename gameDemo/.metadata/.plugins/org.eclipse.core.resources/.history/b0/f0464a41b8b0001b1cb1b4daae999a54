@@ -1,0 +1,5 @@
+package gameDemo.Business.Abstract;
+
+public abstract class BaseCustomerManager implements CustomerService  {
+
+}

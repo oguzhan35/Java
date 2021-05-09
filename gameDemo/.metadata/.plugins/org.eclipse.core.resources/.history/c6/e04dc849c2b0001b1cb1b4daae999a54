@@ -1,0 +1,16 @@
+package gameDemo;
+
+import gameDemo.business.abstracts.CustomerService;
+import gameDemo.business.concretes.CustomerManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CustomerService customerService = new CustomerManager(CustomerDao(), CheckManager());
+		
+
+	}
+
+}

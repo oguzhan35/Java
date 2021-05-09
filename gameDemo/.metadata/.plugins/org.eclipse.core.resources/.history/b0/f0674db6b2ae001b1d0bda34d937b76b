@@ -1,0 +1,5 @@
+package gameDemo.Entities.Concrete;
+
+public class Campaign {
+
+}

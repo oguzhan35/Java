@@ -1,0 +1,26 @@
+package gameDemo.core.concretes;
+
+import java.rmi.RemoteException;
+
+import gameDemo.core.abstracts.CheckService;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoap;
+
+public class CheckManager implements CheckService {
+
+	@Override
+	public boolean check(boolean check) {
+	
+		KPSPublicSoap result1 = new KPSPublicSoap() {
+			
+			@Override
+			public boolean TCKimlikNoDogrula(long TCKimlikNo, String ad, String soyad, int dogumYili) throws RemoteException {
+				// TODO Auto-generated method stub
+				return result1;
+			}
+		};
+		return check;
+		
+	}
+	
+
+}

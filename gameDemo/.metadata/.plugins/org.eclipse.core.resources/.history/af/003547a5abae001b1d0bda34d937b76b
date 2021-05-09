@@ -1,0 +1,38 @@
+package gameDemo.Entities.Concrete;
+
+import gameDemo.Entities.Abstract.Entites;
+
+public class Product implements Entites {
+	
+ private int id;
+ private String productName;
+ private short unitsInStock;
+ private double unitPrice;
+ 
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getProductName() {
+	return productName;
+}
+public void setProductName(String productName) {
+	this.productName = productName;
+}
+public short getUnitsInStock() {
+	return unitsInStock;
+}
+public void setUnitsInStock(short unitsInStock) {
+	this.unitsInStock = unitsInStock;
+}
+public double getUnitPrice() {
+	return unitPrice;
+}
+public void setUnitPrice(double unitPrice) {
+	this.unitPrice = unitPrice;
+}
+  
+
+}

@@ -1,0 +1,43 @@
+package gameDemo.Entities.Concrete;
+
+import gameDemo.Entities.Abstract.Entities;
+
+public class Campaign implements Entities {
+	private int id;
+	private String campaignName;
+	private double discount;
+	private int stockInDiscounted;
+	
+	public Campaign(int id, String campaignName, double discount, int stockInDiscounted) {
+		super();
+		this.id = id;
+		this.campaignName = campaignName;
+		this.discount = discount;
+		this.stockInDiscounted = stockInDiscounted;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getCampaignName() {
+		return campaignName;
+	}
+	public void setCampaignName(String campaignName) {
+		this.campaignName = campaignName;
+	}
+	public double getDiscount() {
+		return discount;
+	}
+	public void setDiscount(double discount) {
+		this.discount = discount;
+	}
+	public int getStockInDiscounted() {
+		return stockInDiscounted;
+	}
+	public void setStockInDiscounted(int stockInDiscounted) {
+		this.stockInDiscounted = stockInDiscounted;
+	}
+
+}

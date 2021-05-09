@@ -1,0 +1,7 @@
+package gameDemo.dataAccess.concretes;
+
+import gameDemo.dataAccess.abstracts.ProductDao;
+
+public class HibernateProductDao implements ProductDao {
+
+}

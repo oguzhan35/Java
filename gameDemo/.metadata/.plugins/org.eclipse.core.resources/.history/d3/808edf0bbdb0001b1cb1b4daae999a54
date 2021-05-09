@@ -1,0 +1,21 @@
+package gameDemo.entities.concretes;
+
+import java.time.LocalDate;
+
+public class Customer {
+
+	private int id;
+	private String firstName;
+	private String LastName;
+	private LocalDate birthday;
+	private String nationalIdentity;
+	
+	public Customer(int id, String firstName, String lastName, LocalDate birthday, String nationalIdentity) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		LastName = lastName;
+		this.birthday = birthday;
+		this.nationalIdentity = nationalIdentity;
+	}
+}

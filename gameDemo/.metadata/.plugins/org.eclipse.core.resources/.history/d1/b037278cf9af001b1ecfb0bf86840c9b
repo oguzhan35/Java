@@ -1,0 +1,26 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.CustomerCheckService;
+import gameDemo.Business.Abstract.CustomerService;
+import gameDemo.Entities.Concrete.Customer;
+
+public class CustomerManager  implements CustomerService {
+
+	private CustomerCheckService customerCheckService;
+	
+	public CustomerManager(CustomerCheckService customerCheckService) {
+		this.customerCheckService =customerCheckService;
+	}
+	
+	@Override
+	public void add(Customer customer) {
+		// TODO Auto-generated method stub
+		if (customerCheckService.CheckCustomer(customer)) {
+			add(customer);
+			System.out.println("kullanýcý eklendi");
+		}else {
+			System.out.println("kullanýcý eklenemdi");
+		}
+	}
+
+}

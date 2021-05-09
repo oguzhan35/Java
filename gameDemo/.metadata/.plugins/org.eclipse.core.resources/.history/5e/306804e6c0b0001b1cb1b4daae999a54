@@ -1,0 +1,6 @@
+package gameDemo.core.abstracts;
+
+public interface CheckService {
+
+	void check();
+}

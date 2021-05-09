@@ -1,0 +1,14 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.CustomerCheckService;
+import gameDemo.Entities.Concrete.Customer;
+
+public class CustomerCheckManager implements CustomerCheckService {
+
+	@Override
+	public boolean CheckCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

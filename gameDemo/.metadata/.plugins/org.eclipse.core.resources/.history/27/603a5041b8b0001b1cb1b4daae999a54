@@ -1,0 +1,8 @@
+package gameDemo.Business.Abstract;
+
+import gameDemo.Entities.Concrete.Campaign;
+
+public interface CampaignService {
+
+	void add(Campaign campaign);
+}

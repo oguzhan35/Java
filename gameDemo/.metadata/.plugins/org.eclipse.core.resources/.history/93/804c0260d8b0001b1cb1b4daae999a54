@@ -1,0 +1,7 @@
+package gameDemo.entities.concretes;
+
+import gameDemo.entities.abstracts.Entity;
+
+public class Product implements Entity {
+
+}

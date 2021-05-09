@@ -1,0 +1,30 @@
+package gameDemo;
+
+import java.time.LocalDate;
+
+import gameDemo.Adapters.MernisService;
+import gameDemo.Business.Abstract.BaseCustomerManager;
+import gameDemo.Business.Concrete.CustomerManager;
+import gameDemo.Entities.Concrete.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		BaseCustomerManager customerManager = new CustomerManager(new MernisService());
+		
+		Customer gamer = new Customer();
+		gamer.setId(1);
+		gamer.setFirstName("OÐUZHAN");
+		gamer.setLastName("DEMÝR");
+		gamer.setDateOfBirth(LocalDate.of(1992,06,30));
+		gamer.setNationalityId("53527148038");
+		
+		customerManager.save(gamer);
+		
+		
+
+	}
+
+}

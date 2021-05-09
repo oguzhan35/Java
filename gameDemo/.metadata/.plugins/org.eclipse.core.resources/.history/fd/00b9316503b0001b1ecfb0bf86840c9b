@@ -1,0 +1,18 @@
+package gameDemo;
+
+import gameDemo.Entities.Concrete.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Customer gamer = new Customer(new MernisServiceAdatter());
+		gamer.setFirstName("Oðuzhan");
+		gamer.setLastName("Demir");
+		gamer.setDateOfBirth(LocalDate);
+
+	}
+
+}

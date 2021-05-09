@@ -1,0 +1,66 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.BaseCustomerManager;
+import gameDemo.Business.Abstract.CampaignService;
+import gameDemo.Business.Abstract.CategoryService;
+import gameDemo.Business.Abstract.CustomerCheckService;
+import gameDemo.Business.Abstract.ProductService;
+import gameDemo.Entities.Concrete.Customer;
+import gameDemo.Entities.Concrete.Product;
+
+
+
+
+public class ProductManager extends BaseCustomerManager implements ProductService{
+
+ private CampaignService campaignService;
+ private CategoryService categoryService;
+ private CustomerCheckService customerCheckService;
+	
+	public ProductManager() {
+		
+	}
+	public ProductManager(CampaignService campaignService,CategoryService categoryService,CustomerCheckService customerCheckService ) {
+		this.campaignService=campaignService;
+	    this.categoryService=categoryService;
+	    this.customerCheckService =customerCheckService;
+	}
+	
+	@Override
+	public void list(Product product) {
+		System.out.println("Urun"+product.getProductName()+"-"+product.getCategoryId());
+		
+	}
+
+	@Override
+	public void add(Product product) {
+		// TODO Auto-generated method stub
+		if (customerCheckService.CheckCustomer(null)) {
+			System.out.println("Urun Eklendi:"+product.getProductName());
+		}else {
+		System.out.println("Yetkiniz Yok");
+		}
+	}
+
+
+	@Override
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Urun Silindi"+product.getProductName());
+	}
+
+	@Override
+	public void update(Product product) {
+		
+		
+		
+	}
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

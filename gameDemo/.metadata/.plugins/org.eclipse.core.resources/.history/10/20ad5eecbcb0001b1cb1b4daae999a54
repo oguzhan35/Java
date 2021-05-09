@@ -1,0 +1,9 @@
+package gameDemo.entities.concretes;
+
+public class Customer {
+
+	private int id;
+	private String firstName;
+	private String LastName;
+	private LocalDate
+}

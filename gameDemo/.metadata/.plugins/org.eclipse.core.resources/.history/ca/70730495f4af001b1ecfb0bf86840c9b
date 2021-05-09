@@ -1,0 +1,10 @@
+package gameDemo.Business.Abstract;
+
+import gameDemo.Entities.Concrete.Sale;
+
+public interface SaleService {
+
+	void list(Sale sale);
+	void add(Sale sale);
+ 
+}

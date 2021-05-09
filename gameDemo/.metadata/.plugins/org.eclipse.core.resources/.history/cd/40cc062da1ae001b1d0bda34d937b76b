@@ -1,0 +1,5 @@
+package gameDemo.Entities;
+
+public class Product {
+
+}

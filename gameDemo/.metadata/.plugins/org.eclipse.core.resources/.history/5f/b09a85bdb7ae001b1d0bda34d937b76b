@@ -1,0 +1,7 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.ProductService;
+
+public class ProductManager implements ProductService{
+
+}

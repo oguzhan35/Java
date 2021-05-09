@@ -1,0 +1,14 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.CategoryService;
+import gameDemo.Entities.Concrete.Category;
+
+public class CategoryManager implements CategoryService {
+
+	@Override
+	public void add(Category category) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

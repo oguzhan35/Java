@@ -1,0 +1,14 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.CampaignService;
+import gameDemo.Entities.Concrete.Campaign;
+
+public class CampaignManager implements CampaignService {
+
+	@Override
+	public void add(Campaign campaign) {
+		System.out.println("KAMPANYA :"+campaign.getCampaignName()+""+campaign.getStockInDiscounted());
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.ProductService;
+import gameDemo.Entities.Concrete.Product;
+
+public class ProductManager implements ProductService{
+
+	CampaignService campaignService;
+	@Override
+	public void list(Product product) {
+		
+		
+	}
+
+	@Override
+	public void add(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

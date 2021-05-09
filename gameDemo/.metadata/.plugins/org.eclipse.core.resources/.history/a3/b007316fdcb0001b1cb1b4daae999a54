@@ -1,0 +1,14 @@
+package gameDemo.business.concretes;
+
+import gameDemo.business.abstracts.ProductService;
+import gameDemo.entities.concretes.Product;
+
+
+public class ProductManager implements ProductService {
+
+	@Override
+	public void add(Product product) {
+		
+	}
+
+}

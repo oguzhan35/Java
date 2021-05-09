@@ -1,0 +1,18 @@
+package gameDemo;
+
+import gameDemo.business.abstracts.CustomerService;
+import gameDemo.business.concretes.CustomerManager;
+import gameDemo.core.concretes.CheckManager;
+import gameDemo.dataAccess.concretes.HibernateCustomerDao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CustomerService customerService = new CustomerManager(new HibernateCustomerDao(), new  CheckManager());
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package gameDemo.Business.Concrete;
+
+import gameDemo.Business.Abstract.SaleService;
+import gameDemo.Entities.Concrete.Sale;
+
+public class SaleManager implements SaleService {
+
+	@Override
+	public void list(Sale sale) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void add(Sale sale) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

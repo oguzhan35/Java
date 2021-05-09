@@ -1,0 +1,6 @@
+package gameDemo.DataAccess.Abstract;
+
+public interface IProductDal {
+	
+
+}
