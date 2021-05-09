@@ -17,7 +17,7 @@ public class Main {
 		
 		CustomerService customerService = new CustomerManager(new CheckManager(),new HibernateCustomerDao());
 		ProductService productService = new ProductManager(new CheckManager(),new HibernateProductDao());
-		Customer customer = new Customer(1,"OÐUZHAN","DEMÝR",1992,"53527148038");
+		Customer customer = new Customer(1,"VELI","ALI",1515,"1111111111");
 		customerService.save(customer);
 
 		Product product = new Product(1,"GTA5",300,10);
